@@ -1,3 +1,11 @@
+#Bragging rights
+
+All that you see in this site at mubashir.hollowcord.org.uk is made using code, stars, moon, reflection even the inside of the witch house.
+only images (that will eventually be replaced) are 
+cloudes.
+invidual trees (forest id dynamically generated you can refresh to see a new one every time)
+and the outer witch hut
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
