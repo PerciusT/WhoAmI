@@ -1,0 +1,27 @@
+#080d11 #000000
+#131862	(19,24,98)
+#2e4482	(46,68,130)
+#546bab	(84,107,171)
+#87889c	(135,136,156)
+#bea9de	(190,169,222)
+
+/* Color Theme Swatches in Hex */
+.Midnight-Purple-1-hex { color: #1E0939; }
+.Midnight-Purple-2-hex { color: #370E6C; }
+.Midnight-Purple-3-hex { color: #10041F; }
+.Midnight-Purple-4-hex { color: #523576; }
+.Midnight-Purple-5-hex { color: #10041F; }
+
+/* Color Theme Swatches in RGBA */
+.Midnight-Purple-1-rgba { color: rgba(30, 9, 56, 1); }
+.Midnight-Purple-2-rgba { color: rgba(55, 13, 107, 1); }
+.Midnight-Purple-3-rgba { color: rgba(15, 3, 31, 1); }
+.Midnight-Purple-4-rgba { color: rgba(82, 53, 117, 1); }
+.Midnight-Purple-5-rgba { color: rgba(15, 3, 31, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Midnight-Purple-1-hsla { color: hsla(266, 72, 12, 1); }
+.Midnight-Purple-2-hsla { color: hsla(266, 77, 23, 1); }
+.Midnight-Purple-3-hsla { color: hsla(266, 77, 6, 1); }
+.Midnight-Purple-4-hsla { color: hsla(266, 37, 33, 1); }
+.Midnight-Purple-5-hsla { color: hsla(266, 77, 6, 1); }
