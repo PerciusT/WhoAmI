@@ -7,7 +7,7 @@ function Witchery(props){
 		setTimeout(function(){props.change(3)},900)
 	}
 
-	return(<img src="./images/witch.png" className={`witchHouse grow ${click==1&&"clickedGrow"}`} onClick={grow} alt=""/>)
+	return(<img src="./images/witch.webp" className={`witchHouse grow ${click==1&&"clickedGrow"}`} onClick={grow} alt=""/>)
 
 }
 export default Witchery
