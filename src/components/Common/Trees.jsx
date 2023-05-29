@@ -39,7 +39,7 @@ function Trees(){
 					}
 					correction.x=Math.floor(Math.random()*25+1)-10+"%"
 					correction.y=Math.random()*10+1+"%"
-					return <Tree key={index} src={`./images/${x}.webp`} treeType="left" className="Trees leftTree" correction={correction}/>
+					return <Tree key={index} src={`./images/${x}.webp`} treeType="left" className="Trees leftTree" alt="Tree in forest web design web development" correction={correction}/>
 				})}
 			</div>
 			<div className="rightTrees">
@@ -48,7 +48,7 @@ function Trees(){
 					}
 					correction.x=Math.floor(Math.random() * (85 - 50 + 1)) + 50+"%"
 					correction.y=Math.random()*10+1+"%"
-					return <Tree key={index} src={`./images/${x}.webp`} treeType="right" className="Trees rightTree" correction={correction}/>
+					return <Tree key={index} src={`./images/${x}.webp`} treeType="right" className="Trees rightTree" alt="Tree in forest web design web development" correction={correction}/>
 				})}
 			</div>
 			
