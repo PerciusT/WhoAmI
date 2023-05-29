@@ -1,0 +1,63 @@
+
+
+// ===== Wave Experiment =====
+.hillContainer
+{
+	overflow: hidden;
+	height: 100vh;
+	width: 100%;
+	z-index: 5;
+}
+.wave-container {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	overflow: hidden;
+}
+/*#2E2945;*/
+.wave {
+	z-index: 5;
+	opacity: 1;
+	position: absolute;
+	top: 67%;
+    background:  #000E0E; 
+    width: 250vw;
+    height: 80vw;
+	transform-origin: 50% 49%;
+	border-radius: 39%;
+	will-change: transform;
+}
+.wave.-two {
+	opacity: 1;
+	background: #0F1917;
+	width: 100vw;
+    height: 80vw;
+    top: 70%;
+    right: 40%;
+}
+.wave.-one {
+	background: #004B4B;
+	opacity: 1;
+	width: 100vw;
+    height: 80vw;
+    top: 70%;
+    right: 30%;
+}
+.wave.-zero {
+	right: -10%;
+}
+
+.wave.-three {
+	opacity: 1;
+	background: #004B4B;
+	top: 70%;
+    width: 100vw;
+    height: 400vw;
+    border-radius: 0;
+    left: 5%;
+	z-index: 4;
+}
+
+
+/*// ===== /Wave Experiment =====*/
+

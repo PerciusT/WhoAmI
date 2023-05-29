@@ -1,0 +1,46 @@
+.Trees{
+	/*overflow: hidden;*/
+	top: 40%;
+	position: absolute;
+	z-index: 3;
+	overflow: hidden;
+}
+
+.leftTrees{
+	overflow: hidden;
+	/*overflow: hidden;*/
+}
+.rightTrees{
+	overflow: hidden;
+	/*overflow: hidden;*/
+}
+
+.rightTree{
+	position: absolute;
+	overflow: hidden;
+	right: 5%;
+}
+.leftTree{
+	position: absolute;
+	overflow: hidden;
+	left: 1%;
+}
+@media(max-width:400px) {
+	.leftTree{
+		/*width: 30%;*/
+		/*display: none;*/
+	}
+	.Trees{
+
+		width: 80%;
+		left: -10%;
+		/*right: 5%;*/
+		top: 50%;
+	}
+}
+.TreeGen{
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}

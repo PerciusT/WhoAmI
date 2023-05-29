@@ -1,0 +1,25 @@
+.glow {
+  -webkit-box-reflect: below 40vh linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+  font-size: 50px;
+  color: #fffa;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+.glowing-moon {
+  /*-webkit-box-reflect: below 40vh linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));*/
+	position: absolute;
+	z-index: 999;
+	right: 68%;
+	top: 4%;
+  width: 100px;
+  height: 100px;
+  background-color: #C6A1CF;
+  border-radius: 100%;
+  box-shadow: 0 14px 18px 0 #9063CD;
+  margin: auto;
+  padding: 10px;
+}

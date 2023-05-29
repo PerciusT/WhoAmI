@@ -1,0 +1,33 @@
+.witchHouse{
+	position: absolute;
+	left: 32vw;
+	top: 35vh;
+	filter: brightness(0.5);
+	/*z-index: 6;*/
+}
+.witchHouse:hover{
+	/*scale: 1.2;*/
+	filter: brightness(1.0);
+
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+.clickedGrow{
+	transition: all 1s ease-in-out;
+	transform: scale(10);
+	top: -40vh;
+}
+.clickedGrow:hover{
+	transform: scale(10);
+}
+@media(max-width:450px) {
+	.witchHouse{
+	left: 1vw;
+	top: 40vh;
+	z-index: 666;
+	}
+	.clickedGrow{
+	transform: scale(5);
+	top: 10vh;
+}
+}
