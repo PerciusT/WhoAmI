@@ -11,7 +11,7 @@ function Front(props){
 	return(<div>
 		<div className="frontInfo">
 			<h1 className="load">Website in progress!</h1>
-			<p className="load">All you see is made with pure code(html css js) including inside the witch house, the moon the reflection the rivers and hills, refresh the page to see an entirely different forest all done through code except the clouds, individual trees and the outside of the hut!</p>	
+			<p className="load hideOnPhone">All you see is made with pure code(html css js) including inside the witch house, the moon the reflection the rivers and hills, refresh the page to see an entirely different forest all done through code except the clouds, individual trees and the outside of the hut!</p>	
 			<p className="load">Click the signs to navigate! you can also click anything that grows when hovered over just like a game!</p>
 		</div>
 		
