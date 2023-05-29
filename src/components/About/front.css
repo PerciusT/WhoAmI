@@ -9,6 +9,7 @@
 }
 @media(max-width:450px) {
     .hideOnPhone{
-        display: hidden;
+/*        display: hidden;*/
+        display: none;
     }
 }
