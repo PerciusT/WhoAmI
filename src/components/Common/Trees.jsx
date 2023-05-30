@@ -42,7 +42,7 @@ function Trees(){
 					if(x==="pine"){
 						correction.y=(Math.random()*(10-4)+4)*-1+"%"
 					}
-					if(x=="stumpy tree"){
+					if(x==="stumpy tree"){
 						correction.y=Math.random()*(10-6)+6+"%"
 					}
 					return <Tree key={index} src={`./images/${x}.webp`} treeType="left" className="Trees leftTree" alt="Tree in forest web design web development" correction={correction}/>
@@ -57,7 +57,7 @@ function Trees(){
 					if(x==="pine"){
 						correction.y=(Math.random()*(10-4)+4)*-1+"%"
 					}
-					if(x=="stumpy tree"){
+					if(x==="stumpy tree"){
 						correction.y=Math.random()*(10-6)+6+"%"
 					}
 					return <Tree key={index} src={`./images/${x}.webp`} treeType="right" className="Trees rightTree" alt="Tree in forest web design web development" correction={correction}/>

@@ -140,7 +140,9 @@ img
 		display: none;
 	}
 }
-
+.scene img{
+	width: 22rem;
+}
 /*body {
   background-image: url(https://images.fineartamerica.com/images-medium-large-5/starry-night-gilbert-rondilla-photography.jpg);
   background-size: cover;
