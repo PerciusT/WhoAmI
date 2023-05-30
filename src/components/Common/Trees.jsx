@@ -7,18 +7,18 @@ import "../../css/Tree.css"
 
 function Trees(){
 	function treeGen(){
-		let arr=["withered tree","stumpy tree"]
+		let arr=["withered tree","stumpy tree","pine"]
 		let treeArr=[]
 		const { width } = Dimensions();
-		let x=40
+		let x=15
 		// console.log(width)
 		if(width<=400)
 		{
-			x=10
+			x=8
 		}
 		else if(width<=600)
 		{
-			x=15
+			x=10
 		}
 		for(let i=0;i<x;i++){
 			// console.log(i)
@@ -39,6 +39,12 @@ function Trees(){
 					}
 					correction.x=Math.floor(Math.random()*25+1)-10+"%"
 					correction.y=Math.random()*10+1+"%"
+					if(x==="pine"){
+						correction.y=(Math.random()*(10-4)+4)*-1+"%"
+					}
+					if(x=="stumpy tree"){
+						correction.y=Math.random()*(10-6)+6+"%"
+					}
 					return <Tree key={index} src={`./images/${x}.webp`} treeType="left" className="Trees leftTree" alt="Tree in forest web design web development" correction={correction}/>
 				})}
 			</div>
@@ -46,8 +52,14 @@ function Trees(){
 				{treeGen().map((x,index)=>{
 					let correction={
 					}
-					correction.x=Math.floor(Math.random() * (85 - 50 + 1)) + 50+"%"
+					correction.x=Math.floor(Math.random() * (90 - 45)) + 45+"%"
 					correction.y=Math.random()*10+1+"%"
+					if(x==="pine"){
+						correction.y=(Math.random()*(10-4)+4)*-1+"%"
+					}
+					if(x=="stumpy tree"){
+						correction.y=Math.random()*(10-6)+6+"%"
+					}
 					return <Tree key={index} src={`./images/${x}.webp`} treeType="right" className="Trees rightTree" alt="Tree in forest web design web development" correction={correction}/>
 				})}
 			</div>
