@@ -10,7 +10,7 @@ function Trees(){
 		let arr=["withered tree","stumpy tree","pine"]
 		let treeArr=[]
 		const { width } = Dimensions();
-		let x=15
+		let x=18
 		// console.log(width)
 		if(width<=400)
 		{
