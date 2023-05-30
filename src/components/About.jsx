@@ -10,9 +10,7 @@ function About(props){
 	return(
 		<div>
 			<Moon/>
-			<Cloud class="1"/>
-			<Cloud class="2"/>
-			<Cloud class="3"/>
+			<Cloud/>
 			<Star/>
 			<Sign content="Hire" content2="Return" changeTo="0" changeTo2="1" slider={props.slider}/>
 			<Hill  frontClass="" hidden={true}>
