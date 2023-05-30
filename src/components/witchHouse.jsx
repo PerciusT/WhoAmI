@@ -11,7 +11,9 @@ function Witch(props){
 	return(
 		<div>
 			<Moon/>
-			<Cloud/>
+			<Cloud class="1"/>
+			<Cloud class="2"/>
+			<Cloud class="3"/>
 			<Star/>
 			
 			<Sign content="Return" content2="About" changeTo="1" changeTo2="2" slider={props.change}/>
