@@ -11,6 +11,8 @@ function About(props){
 		<div>
 			<Moon/>
 			<Cloud/>
+			<Cloud/>
+			<Cloud/>
 			<Star/>
 			<Sign content="Hire" content2="Return" changeTo="0" changeTo2="1" slider={props.slider}/>
 			<Hill  frontClass="" hidden={true}>

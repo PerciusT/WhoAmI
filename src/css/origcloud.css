@@ -1,0 +1,149 @@
+img
+{
+	width: 20rem;
+	height: auto;
+}
+@keyframes animate {
+	0% {
+		opacity: 0;
+		transform: translateY(0);
+	}
+	10%,
+	90% {
+		opacity: 1;
+	}
+	160% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+}
+
+.cloud1 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 600px;
+	/*z-index: 10000;*/
+	animation: animateCloud 50s linear infinite;
+}
+
+.cloud2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 500px;
+	/*z-index: 10000;*/
+	animation: animateCloud 35s linear infinite;
+}
+
+.cloud3 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	max-width: 600px;
+	/*z-index: 10000;*/
+	animation: animateCloud 80s linear infinite;
+}
+
+.cloud4 {
+	position: absolute;
+	top: 200px;
+	left: 0;
+	max-width: 300px;
+	/*z-index: 10000;*/
+	animation: animateCloud 70s linear infinite;
+	animation-delay: -25s;
+}
+
+.cloud5 {
+	position: absolute;
+	top: 150px;
+	left: 0;
+	max-width: 500px;
+	/*z-index: 10000;*/
+	animation: animateCloud 40s linear infinite;
+	animation-delay: -10s;
+}
+
+.cloud6 {
+	position: absolute;
+	top: 75px;
+	left: 0;
+	max-width: 540px;
+	/*z-index: 10000;*/
+	animation: animateCloud 30s linear infinite;
+	animation-delay: -15s;
+}
+
+@keyframes animateCloud {
+	0% {
+		transform: translateX(-100%) scale(1);
+	}
+	100% {
+		transform: translateX(550%) scale(1);
+		/*overflow: hidden;*/
+	}
+}
+
+
+@media(max-width:1024px) {
+	@keyframes animateCloud {
+	0% {
+		transform: translateX(-100%) scale(1);
+	}
+	100% {
+		transform: translateX(450%) scale(1);
+		overflow: hidden;
+	}
+}
+}
+@media(max-width:768px) {
+	@keyframes animateCloud {
+	0% {
+		transform: translateX(-100%) scale(1);
+	}
+	100% {
+		transform: translateX(200%) scale(1);
+		overflow: hidden;
+	}
+}
+}
+@media(max-width:600px) {
+	@keyframes animateCloud {
+	0% {
+		transform: translateX(-100%) scale(1);
+	}
+	100% {
+		transform: translateX(100%) scale(1);
+		overflow: hidden;
+	}
+}
+}
+@media(max-width:400px) {
+	.cloud1{
+
+		display: none;
+	}
+	.cloud2{
+
+		display: none;
+	}
+	.cloud3{
+
+		display: none;
+	}
+	.cloud4{
+
+		display: none;
+	}
+	.cloud5{
+		display: none;
+	}
+}
+.scene img{
+	width: 22rem;
+}
+/*body {
+  background-image: url(https://images.fineartamerica.com/images-medium-large-5/starry-night-gilbert-rondilla-photography.jpg);
+  background-size: cover;
+}*/
