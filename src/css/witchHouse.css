@@ -20,10 +20,20 @@
 .clickedGrow:hover{
 	transform: scale(10);
 }
+@media(max-width:1440px) {
+.witchHouse{
+	position: absolute;
+	left: 32vw;
+	top: 45vh;
+	filter: brightness(0.5);
+	/*z-index: 6;*/
+}
+
+}
 @media(max-width:450px) {
 	.witchHouse{
 	left: 1vw;
-	top: 30vh;
+	top: 50vh;
 	z-index: 666;
 	}
 	.clickedGrow{

@@ -5971,7 +5971,7 @@ html {
 @media(max-width:768px){
 	#root{
 	left: 0%;
-	top: 30%;
+	top: 29%;
 
 	}
 	.container{
@@ -5981,7 +5981,7 @@ html {
 @media(max-width:550px){
 	#root{
 	left: -46%;
-	top: 30%;
+	top: 29%;
 
 	}
 	.container{
@@ -5992,7 +5992,7 @@ html {
 @media(max-width:375px){
 	#root{
 	left: -60%;
-	top: 35%;
+	top: 34%;
 
 	}
 	.container{
@@ -6002,7 +6002,7 @@ html {
 @media(max-width:320px){
 	#root{
 	left: -78%;
-	top: 35%;
+	top: 34%;
 
 	}
 	.container{

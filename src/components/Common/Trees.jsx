@@ -14,7 +14,7 @@ function Trees(){
 		// console.log(width)
 		if(width<=400)
 		{
-			x=8
+			x=2
 		}
 		else if(width<=600)
 		{
