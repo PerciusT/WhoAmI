@@ -12,8 +12,9 @@ img
   width: 420px;
   height: 100vh;
   overflow: hidden;
-  opacity: 0.4;
+  opacity: 0.3;
   animation: moveCloud1 40s alternate infinite ease-in-out;
+  animation-delay: -40s;
   
 /*  animation-delay: 1s;*/
 }
@@ -914,6 +915,7 @@ img
   top: 100px;
   left: 300px;
   animation: moveCloud2 50s alternate infinite ease-in-out;
+  animation-delay: -50s;
 }
 .cloud2__clouds2 span:nth-child(1) {
   display: inline-block;
@@ -1048,7 +1050,7 @@ img
   top: 25px;
   left: 450px;
   animation: moveCloud3 60s alternate infinite ease-in-out;
-  animation-delay: 3;
+  animation-delay: -60s;
 }
 .cloud3__clouds3 span:nth-child(1) {
   display: inline-block;
