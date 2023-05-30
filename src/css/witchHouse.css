@@ -23,7 +23,7 @@
 @media(max-width:450px) {
 	.witchHouse{
 	left: 1vw;
-	top: 40vh;
+	top: 30vh;
 	z-index: 666;
 	}
 	.clickedGrow{
